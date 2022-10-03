@@ -1,1 +1,1 @@
-let events = [];
+export let eventdata = {};
