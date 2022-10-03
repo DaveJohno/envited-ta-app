@@ -18,7 +18,9 @@ export default function Container() {
 
       <div className="image-one"></div>
 
-      <button className="create-btn">🎉 Create my event</button>
+      <a href="/create">
+        <button className="create-btn">🎉 Create my event</button>
+      </a>
     </main>
   );
 }
