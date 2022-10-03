@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+Congrats on making it this far in the hiring process, it means we really like you and what you have to offer.  This next step in the hiring process is really meant to see how you can tackle a problem and see what you are able to get done in a short amount of time.  We really want to get a sense of your problem-solving skills, coding style, and organisation.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Additionally, contrary to all those pesky recursion and algorithm coding questions that companies love to give, we feel it important to give you a small project that gives you a sense of the work that you will be doing here at Envited.
 
-## Available Scripts
+With that...here it is
 
-In the project directory, you can run:
+**Timeframe**
 
-### `npm start`
+This test has been designed to be well contained and fit in a relatively short time frame. We believe that ~3-4 hours should give us a good understanding of your work.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+If you don’t finish everything you would like to do inside a reasonable period, then that’s okay – we want to have code we can talk through, and you’re welcome to tell us about the things you would add/change if you had more time.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The time limit aims to help us to understand how you balance the practicalities of limited resources (time).
 
-### `npm test`
+**The Challenge**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+You are tasked with building the initial front end for an event social media application to rival its top competitor Envited!
 
-### `npm run build`
+Your app should include the following functionality:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Landing page: “/”**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- This page should replicate our design on Figma as closely as possible.
+  - Landing page Figma link: https://www.figma.com/file/LqPQ72db8HnZghmiYKsWqd/Front-end-Tech-Assessment?node-id=0%3A1
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Create event page: “/create”**
 
-### `npm run eject`
+- After clicking the “create event” button, the user should be directed to a new page where they can input their event details. This should include the following: Event name, Host name, Start and End time/date, Location and Event photo.
+- Ensure there is a “next” button on the page – this should take the user to the “/event” page.
+- This page has no pre-made design as we would love to see how creative you can get without the input from our designers. Remember to style it using Envited’s colours which are in your Figma file.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Event page: “/event”**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- After clicking the “next” button, the user should be directed to their event page where all details are displayed.
+- This event page should replicate our design on Figma as closely as possible: https://www.figma.com/file/LqPQ72db8HnZghmiYKsWqd/Front-end-Tech-Assessment?node-id=14%3A279
+- Once again, all colours/icons/images you need are below.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**Bonus tasks:**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Allow the event and event details (like event name, host name, start/end time/date etc.) to be editable.
+- Implementation of responsive design – all designs should initially be completed to function on a mobile device. However, if time allows, making a desktop friendly version of the task would be preferred.
 
-## Learn More
+**Rules and Resources:**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- You have **4 HOURS** to complete this task (you are still encouraged to provide your submission even if it is incomplete).
+- You **MUST** use the **React** front-end library.
+- Please ensure you have **created a Figma account** and are **logged in**. This will give you access to the inspect tab which allow you to see the design properties and CSS of the pages you need to recreate. You will be at a severe disadvantage if you don’t have an account/aren’t logged in.
+- You can use whatever components/libraries you would like, however we suggest only using widely used and up to date ones as this might error your code when we are testing it.
+- You should use the Envited colour scheme which we’ve laid out in the 3rd page of the Figma file: https://www.figma.com/file/LqPQ72db8HnZghmiYKsWqd/Front-end-Tech-Assessment?node-id=13%3A170
+- See below for the image assets which you’ll need to build the pages.
+- We are assessing your code quality, how much you can complete in the provided time frame, attention to detail, and creativity.
+- For any icons we suggest using: [https://react-icons.github.io/react-icons/icons?name=im](https://react-icons.github.io/react-icons/icons?name=im)
+- **SUBMIT** the link to your application via the Google form [https://forms.gle/hc9nE8LSDbnjfQLR7](https://forms.gle/hc9nE8LSDbnjfQLR7)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+If you have any questions/queries during the assessment, please email me at [mihailo@envited.io](mailto:mihailo@envited.io)
 
-### Code Splitting
+Goodluck!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**Image assets:**
 
-### Analyzing the Bundle Size
+Landing page:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+[Landing page image.svg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ea95af2d-7f06-4f25-859c-9069519053a7/Landing_page_image.svg)
 
-### Making a Progressive Web App
+Event page image:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Birthday cake.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/17d6299f-f287-469c-a403-b8ab9d75aa62/Birthday_cake.png)
